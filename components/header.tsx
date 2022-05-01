@@ -26,7 +26,7 @@ const Header = () => {
             {/* login / register */}
             <div className="flex items-center space-x-8">
                 <h3 className="">Login</h3>
-                <h3 className="rounded-3xl border-2 px-4 py-2">Register</h3>
+                <h3 className="rounded-2xl border-2 border-slate-900 px-6 py-2">Register</h3>
             </div>
         </header>
     )
