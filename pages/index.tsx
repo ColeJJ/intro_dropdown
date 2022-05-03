@@ -3,6 +3,11 @@ import Head from 'next/head'
 import Header from '../components/header'
 import Body from '../components/body'
 
+/**
+ * 1. remove FontAwesomeIcon
+ *
+ */
+
 const Home: NextPage = () => {
     return (
         <div>
