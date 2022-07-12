@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/header'
+import Partners from '../components/partners'
 import Text from '../components/text'
 
 /**
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
 			<body>
 				<Header></Header>
 				<Text></Text>
+				<Partners></Partners>
 			</body>
 		</div >
 	)
