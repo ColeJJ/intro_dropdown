@@ -1,8 +1,3 @@
-/**
- * 1. Style h1 and p
- *
- */
-
 const Text = () => {
 	return (
 		<div className="relative h-full top-28 left-32">
