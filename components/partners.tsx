@@ -1,6 +1,6 @@
 const Partners = () => {
 	return (
-		<div className='relative flex space-x-12 top-80 left-32'>
+		<div className='absolute bottom-28 left-72 flex space-x-12'>
 			<img src='../images/client-databiz.svg' className='w-28 h-5' />
 			<img src='../images/client-audiophile.svg' className='' />
 			<img src='../images/client-meet.svg' className='h-6' />

@@ -1,12 +1,10 @@
 const BodyPic = () => {
-    return (
-        <div>
-            <img
-                src="./images/image-hero-desktop.png"
-                className="absolute top-1/3 right-56 w-4/12"
-            />
-        </div>
-    )
+	return (
+		<img
+			src="./images/image-hero-desktop.png"
+			className="w-1/4 absolute inline-block top-52 right-72"
+		/>
+	)
 }
 
 export default BodyPic

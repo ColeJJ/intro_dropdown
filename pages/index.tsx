@@ -11,22 +11,22 @@ import Text from '../components/text'
  */
 
 const Home: NextPage = () => {
-    return (
-        <div>
-            <Head>
-                <title>Create Next App</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <body>
-                <Header></Header>
-                <div className="relative">
-                    <Text></Text>
-                    <Partners></Partners>
-                    <BodyPic></BodyPic>
-                </div>
-            </body>
-        </div>
-    )
+	return (
+		<div>
+			<Head>
+				<title>Create Next App</title>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
+			<body>
+				<div className="relative h-screen">
+					<Header />
+					<Text />
+					<Partners />
+					<BodyPic />
+				</div>
+			</body>
+		</div>
+	)
 }
 
 export default Home
