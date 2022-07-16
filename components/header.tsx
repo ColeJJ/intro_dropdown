@@ -16,13 +16,13 @@ const Header = () => {
 				{/* nav */}
 				<div className="hidden items-center space-x-8 md:flex">
 					<h3>
-						Features <Image src="/images/icon-arrow-down.svg" width={10} height={6} />
+						<Link href="/">Features </Link><Image src="/images/icon-arrow-down.svg" width={10} height={6} />
 					</h3>
 					<h3>
-						Company <Image src="/images/icon-arrow-down.svg" width={10} height={6} />
+						<Link href="/">Company </Link><Image src="/images/icon-arrow-down.svg" width={10} height={6} />
 					</h3>
-					<h3>Careers</h3>
-					<h3>About</h3>
+					<h3><Link href="/">Careers</Link></h3>
+					<h3><Link href="/">About</Link></h3>
 				</div>
 			</div>
 
